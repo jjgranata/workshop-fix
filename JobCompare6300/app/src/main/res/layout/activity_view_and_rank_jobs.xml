@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="Rank Jobs"
+        android:textSize="24sp" />
+    <LinearLayout
+        android:id="@+id/jobs_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+    <Button
+        android:id="@+id/compare_two_jobs_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compare Two Job" />
+    <Button
+        android:id="@+id/return_to_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return" />
+</LinearLayout>
